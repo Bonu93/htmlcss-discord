@@ -79,7 +79,7 @@ header {
 
 
 .main-menu ul > li:last-child {
-    margin: 0;
+    margin-right: 250px; /*remove!!!! */
 }
 
 .main-menu ul li a {
@@ -88,6 +88,14 @@ header {
     color: inherit;
     font-weight: 600;
     vertical-align: middle;
+}
+
+/* HERO  */
+
+.hero {
+    height: 400px; /*remove*/
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 
